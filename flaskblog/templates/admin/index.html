@@ -1,0 +1,6 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+  <p>Admin Panel containing GUI to manage both tables in our Database, To logout from this click the button below !</p>
+    <a class="btn btn-outline-info" href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}
