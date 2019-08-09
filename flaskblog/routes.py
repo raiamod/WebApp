@@ -5,7 +5,7 @@ from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, Post
 from flaskblog.models import User, Post, load_user
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
-
+#HI
 
 @app.route("/")
 @app.route("/home")
